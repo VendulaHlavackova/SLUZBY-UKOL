@@ -24,11 +24,24 @@ body {
     margin-top: 40px;
   }
 
+  .podtrzitko {
+    text-align: center;
+    width: 55px;
+    color: #407bff;
+  }
+
   h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     text-align: center;
     margin-top: 70px;
+  }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 90px;
   }
 
   .destinace {
@@ -44,10 +57,14 @@ body {
     margin-right: auto;
   }
 
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+
   .dobrodruzstvi {
     margin-top: 30px;
     text-align: center;
-    margin-bottom: 30px;
   }
 
   .tlacitko1 {
@@ -197,8 +214,6 @@ body {
 }
 
 @media screen and (min-width: 640px) {
-  
-
   .cestovatel {
     max-width: 400px;
     margin-top: 60px;
@@ -215,6 +230,19 @@ body {
     margin-top: 30px;
   }
 
+  .podtrzitko {
+    text-align: center;
+    width: 55px;
+    color: #407bff;
+  }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 90px;
+  }
+
   .destinace {
     color: #8b8b8b;
     font-size: 16px;
@@ -227,6 +255,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: row;
   }
 
   .dobrodruzstvi {
@@ -354,7 +387,6 @@ body {
     margin-right: auto;
   }
 
-
   .ctvrty,
   .paty,
   .sesty {
@@ -364,19 +396,16 @@ body {
     margin-bottom: 60px;
   }
 
-
   .palma {
     text-align: center;
     padding: 30px 20px 0 20px;
   }
-
 
   .ctvrty {
     background-color: white;
     width: 230px;
     height: 172px;
     border-radius: 10px;
-    
   }
 
   .slunecnik {
@@ -389,7 +418,6 @@ body {
     width: 230px;
     height: 172px;
     border-radius: 10px;
-    
   }
 
   .van {
@@ -397,43 +425,164 @@ body {
     padding: 30px 20px 0 20px;
   }
 
-
   .sesty {
     background-color: white;
     width: 230px;
     height: 172px;
     border-radius: 10px;
-    
   }
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 1100px) {
+  .dva-sloupce {
+    display: flex;
+    flex-direction: row;
+  }
 
-    
+  .sloupec1 {
+    order: 2;
+    margin-right: 100px;
+  }
 
-    .dva-sloupce {
-        display: flex;
+  h1 {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
 
-    
-    }
+  .podtrzitko {
+    margin-left: 100px;
+    width: 55px;
+    color: #407bff;
+  }
 
-    .obsah.sekce {
-        
-    }
+  .destinace {
+    text-align: left;
+    width: 488px;
+    height: 65px;
+    margin-left: 100px;
+  }
 
-    
+  .sloupec2 {
+    order: 1;
+  }
 
+  .boxy {
+    display: flex;
+    flex-direction: row;
+  }
 
-    .cestovatel {
-        
-      }
-    
+  h2 {
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 20px;
+  }
 
+  .dovolena {
+    width: 430px;
+    height: 76px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 0;
+  }
+
+  .dobrodruzstvi {
+    margin-top: 0;
+  }
+
+  .plaz {
+    margin-top: 0;
+  }
+
+  .tlacitko1 {
+    background-color: #407bff;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: left;
+    float: left;
+    margin-left: 100px;
+    margin-right: 20px;
+  }
+
+  .box1 {
+    order: 2;
+    margin-left: 20px;
+  }
+
+  .box2 {
+    order: 1;
+    display: inline-flex;
+    margin-top: 160px;
+    margin-left: 100px;
+  }
+
+  .prvni {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
+
+  .druhy {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
+
+  .treti {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
+
+  .boxicky {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .delegati {
+    width: 430px;
+    height: 76px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: 0;
+  }
+
+  .boxicek2 {
+    margin-top: 50px;
+  }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .ctvrty {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
+
+  .paty {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
+
+  .sesty {
+    background-color: white;
+    width: 170px;
+    height: 191px;
+    border-radius: 10px;
+  }
 }
